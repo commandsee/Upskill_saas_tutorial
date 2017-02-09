@@ -35,6 +35,22 @@ h1, h2, h3 {font-family: "Open Sans", sans-serif;}
     border: none ;
 }
 
+.navbar-brand {
+    font-family: 'Open-sans', sans-serif;
+    font-weight: 800;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+.navbar-default .navbar-toggle {
+    border: 2px white solid;
+    &:hover, &:focus {
+        background-color: #F3904F;
+    }
+}
+
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav > li > a {
     color: white;
